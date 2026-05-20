@@ -1,0 +1,209 @@
+protocol:
+  name: “Protocol for the Preservation of Human Reproductive Autonomy and Baseline Reality Engagement”
+  short_name: “Reproductive Integrity Protocol (RIP)”
+  version: “1.0”
+  preamble: >
+    Recognizing that certain technologies—including complete sensory simulation and 
+    fully autonomous machine human reproduction—pose an existential threat to the 
+    human species by subverting the fundamental drives to reproduce, bond, and 
+    engage with base reality, the signatory states establish this binding framework 
+    to preserve biological humanity while permitting therapeutic and controlled 
+    uses of advanced technology.
+
+  definitions:
+    base_reality: >
+      The physical universe accessible to unaugmented human senses, as distinct 
+      from any digitally or biologically simulated environment.
+    complete_sensory_simulation: >
+      Any immersive system, neural interface, or virtual environment that 
+      wholly replaces or overrides natural sensory input to the extent that 
+      the user cannot distinguish it from, or prefers it to, base reality.
+    autonomous_ectogenesis: >
+      The creation and full-term gestation of a human organism entirely by 
+      artificial means without the use of a naturally conceived human embryo 
+      (i.e., machine-based reproduction from raw genetic material).
+    anti_natal_technology: >
+      Any technology demonstrably proven to suppress the desire for sexual 
+      reproduction, pair-bonding, or long-term immersion in base reality 
+      to the point of threatening population replacement rates.
+    reality_washout_period: >
+      A mandatory interval of consecutive base-reality consciousness during 
+      which no immersive system may be re‑engaged.
+
+  core_principles:
+    - Biological reproduction remains the normative and protected mode of human continuity.
+    - Base reality engagement is a protected biological right and a social duty.
+    - Therapeutic applications of ectogenesis and limited immersion are permitted under strict regulation.
+    - The precautionary principle applies: technologies capable of species-level 
+      reproductive suppression shall be restrained by default.
+
+  prohibitions:
+    - sensory_simulation_override:
+        description: >
+          Manufacture, distribution, or possession of devices or software that 
+          bypass the “Geneva Lock” time governor on sensory simulation systems.
+        exceptions: None for private individuals.
+    - autonomous_human_ectogenesis:
+        description: >
+          Creation of a human embryo from synthesized gametes or raw genetic 
+          code without prior documented consent of two living human progenitors.
+    - permanent_reality_disengagement:
+        description: >
+          Any system or practice offering indefinite, uninterrupted immersion 
+          without mandatory reality washout periods.
+    - anti_natal_bioengineering:
+        description: >
+          Deliberate modification of the human nervous system to permanently 
+          eliminate the desire for sexual reproduction or real-world social bonding.
+
+  permitted_uses:
+    - therapeutic_ectogenesis:
+        conditions:
+          - Must use a viable human embryo conceived naturally or via IVF from 
+            two consenting, named progenitors.
+          - Embedded biogenesis module must be embryo-locked; any attempt to 
+            synthesize an embryo triggers irreversible shutdown.
+    - medical_sensory_simulation:
+        conditions:
+          - Duration not exceeding 8 hours per 24-hour period.
+          - Mandatory 12-hour reality washout before next session.
+          - Device must be equipped with a certified Geneva Lock time governor.
+    - research:
+        conditions:
+          - Licensed facilities subject to unannounced inspection.
+          - All experiments involving anti-natal potential must report to the 
+            International Inspection Agency prior to commencement.
+
+  technological_safeguards:
+    geneva_lock:
+      specification: “IEEE 2784‑RIP”
+      hardware_components:
+        time_governor:
+          function: Enforces hard limit on consecutive immersion (8 hours) and 
+            mandatory washout (12 hours).
+          bypass_penalty: Automatic permanent destruction of immersion core.
+        embryo_lock:
+          function: Prevents artificial womb from synthesizing gametes; requires 
+            detection of natural embryo genetic signature.
+          bypass_penalty: Irreversible biochemical shutdown of gestation chamber.
+        manufacturing_chain:
+          only_in_certified_foundries: true
+          audit_trail: Full blockchain-based provenance from wafer to device.
+    kill_switch_standard:
+      all_immersive_hardware: Mandatory remote-deactivation chip that responds to 
+        treaty-inspection signals.
+
+  biological_safeguards:
+    gut_microbiome_prophylaxis:
+      agent_name: “Coli‑Veritas”
+      description: >
+        A benign transmissible gut bacterium engineered to produce a mild 
+        anxiety peptide whenever the host spends >6 hours in a dissociated 
+        neural state, making prolonged simulation physically uncomfortable.
+      deployment: Voluntary inoculation; authorized for public water supplies 
+        in areas under active simulation-cartel threat (ethics panel override required).
+    gene_therapy_resilience:
+      interventions:
+        - oxytocin_upreg: Strengthens pair-bonding and parental responsiveness.
+        - d2_receptor_modulation: Reduces dopaminergic reward from simulated 
+          experiences while preserving real-world reward sensitivity.
+      delivery: Opt-in with significant public health subsidies; mandatory for 
+        individuals convicted of simulation-tampering offenses.
+
+  cultural_preservation_protocols:
+    realist_movement:
+      description: Global campaign to re-sacralize base reality and biological parenthood.
+      components:
+        - coming_of_age_rituals:
+            - wilderness immersion with communal child-rearing tasks
+            - natural childbirth witnessing (voluntary)
+        - media_production:
+            mandate: Depict the “sensory dropout” as a figure of profound loss, 
+              not liberation.
+        - stigma_engineering:
+            target: Normalize deep-seated social contempt for those who permanently 
+              reject reproduction and reality.
+    education_in_metacognition:
+      curriculum:
+        - recognition of “preference fade” (early warning signs of losing desire 
+          for real-world intimacy and parenting).
+        - critical analysis of simulated worlds as potentially parasitic 
+          rather than liberating.
+
+  reproductive_subsidies_and_incentives:
+    universal_parental_income:
+      amount: 50% above median wage, non‑means‑tested, from third trimester until 
+        youngest child reaches age 18.
+    career_guarantees:
+      - Returning parents entitled to same or equivalent position with seniority accrual.
+      - Tax incentives for corporations exceeding parental employment quotas.
+    civic_honors:
+      - “Lineage Honors” system: families with ≥3 children receive preferential 
+        housing, political representation bonuses, and public recognitions.
+    legal_extinction:
+      Individuals permanently opting for total sensory immersion and zero biological 
+      reproduction are declared legally dead; assets transferred to Parental Trust Fund.
+
+  enforcement:
+    international_inspection_agency:
+      acronym: “I3A” (International Immersion and Reproduction Inspection Agency)
+      authority: Modeled on IAEA, with power to conduct no-knock inspections 
+        of biolabs, simulation server farms, and fabrication plants.
+      whistleblower_program:
+        reward: 10% of asset forfeiture from successful interdiction.
+        protection: Full identity masking and relocation.
+      hardware_controls: Inspectors carry portable neural-override detectors and 
+        genetic sequencers to verify embryo-lock integrity.
+
+    teams:
+      team_a:  # The Reality Compact
+        official_name: “Reality Compact Enforcement Division”
+        moto: “The Real is the Anchor.”
+        units:
+          - auditors: Surprise inspection teams.
+          - geneva_lock_enforcement: Hardware certification and sabotage response.
+          - cultural_immunity_corps: Psychologists and media strategists deploying 
+            realist campaigns.
+          - biodefense_wing: Maintains Coli‑Veritas strain and gene therapy vectors.
+          - reproductive_incentive_directorate: Administers subsidies and honors.
+        rules_of_engagement:
+          - May disable unlicensed ectogenesis tanks via remote kill‑switch.
+          - Authorized to use counter‑agents (cortisol‑releasing aerosols) 
+            against pods connected to unauthorized networks.
+          - Legal authority to declare a “reality emergency” and temporarily 
+            suspend data connectivity in affected zones.
+
+      team_b_response:  # Actions against rule breakers (Sovereignty Underground)
+        classification: Hostile non‑state actors.
+        countermeasures:
+          - active_interdiction:
+              targeted: Black‑market “eternity chip” manufacturers and simulation cartels.
+              method: Coordinated raids with host‑nation forces, asset seizure, 
+                and hardware destruction.
+          - biocountermeasure_deployment:
+              against: Viral vectors that disable anxiety microbiome.
+              response: Emergency release of upgraded Coli‑Veritas strain with 
+                broader epitope profile.
+          - information_warfare:
+              objective: Expose the physical decay and psychological emptiness 
+                of permanent immersion pods; publish real‑time medical data of 
+                pod‑living casualties.
+          - deplatforming: Criminalize glorification of the “Great Withdrawal” 
+            as a crime against humanity (incitement to species self‑extinction).
+
+    penalties:
+      tier1_manufacturing: Life imprisonment; intellectual property rights permanently 
+        forfeited to the state.
+      tier2_distribution: 30‑year mandatory minimum; all assets linked to anti‑natal 
+        activities seized.
+      tier3_use: Mandatory biological reconditioning (gene therapy resilience package) 
+        and lifetime supervised reality‑engagement monitoring.
+      corporate: Charter revocation and permanent bar from biotechnology or 
+        neural interface industries.
+
+  amendment_process:
+    Any signatory state may propose amendments; approval requires three‑fourths 
+    majority of the Oversight Council, provided the amendment does not weaken 
+    the prohibition on autonomous machine reproduction or the mandatory 
+    reality‑washout principle, which are declared irrevocable under Protocol 
+    Article IX (the “Entrenchment Clause”).
