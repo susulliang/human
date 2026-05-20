@@ -1,5 +1,3 @@
-Here is the updated lore with the cause of the neurological mutations shifted from the fertility drug to the hyper-addictive media technology. The timeline, table, and Chinese translations have been adjusted accordingly.
-
 ### **Lore Update: The "Eros-X" Incident & The Algorithmic Plague (2030–2040)**
 The UN and WHO initially released a prescription medication to boost fertility and mating activities. However, due to strict prescription requirements and public hesitation, its effects were severely limited. The global population continued to plummet. 
 
