@@ -1,0 +1,126 @@
+project: human-ever-after
+media:
+  title_zh: "《沉默的矿脉》"
+  title_en: "The Silent Vein"
+  folder: story/dark-and-jark
+scale: "1-10 (10 = strongest for short-film proof-of-concept)"
+criteria:
+  visual_poetry: "Cinematography contrast (2.35 noise vs 1.43 truth); biolume logic"
+  sound_design: "Silence vs Murmur; vacuum beat; reverse-echo unity"
+  emotional_arc: "Jark journey from alienation to communion"
+  canon_fit: "Alignment with Dark/Jark YAML and Human-Ever-After timeline"
+  pacing_short: "Suitability for 10-18 min runtime without bloat"
+  character_clarity: "Dark and Jark motivations legible without bible"
+  thematic_depth: "Addiction vs symbiosis; individual vs civilizational immortality"
+  production_feasibility: "Achievable on indie / PoC budget"
+  ending_power: "Resonance and aftertaste of final frames"
+  franchise_potential: "Expandability to feature, series, or universe tie-in"
+
+versions:
+  - id: v1-canonical-descent
+    file: v1-canonical-descent.md
+    title: "Canonical Descent"
+    runtime_min: 12
+    runtime_max: 15
+    scores:
+      visual_poetry: 9
+      sound_design: 9
+      emotional_arc: 8
+      canon_fit: 9
+      pacing_short: 8
+      character_clarity: 8
+      thematic_depth: 9
+      production_feasibility: 7
+      ending_power: 8
+      franchise_potential: 7
+    weighted_overall: 8.3
+    recommendation: primary_poC
+    strengths:
+      - Faithful to supplied Scene 1 shot list (shots 01-08)
+      - Balanced ambiguous ending preserves mystery and fan interpretation
+      - Full IMAX turn at contact matches universe visual thesis
+      - Dark's Dream climax without over-explaining Freetown politics
+    weaknesses:
+      - 60s vacuum + 90s spiral may test festival patience without director name
+      - Act III slightly thin if audience expects explicit plot resolution
+    best_for:
+      - Festival short
+      - Universe tone reel
+      - First production draft
+
+  - id: v2-submerge
+    file: v2-submerge.md
+    title: "Submerge"
+    runtime_min: 10
+    runtime_max: 12
+    scores:
+      visual_poetry: 8
+      sound_design: 8
+      emotional_arc: 9
+      canon_fit: 10
+      pacing_short: 9
+      character_clarity: 7
+      thematic_depth: 9
+      production_feasibility: 8
+      ending_power: 9
+      franchise_potential: 6
+    weighted_overall: 8.4
+    recommendation: canon_horror_branch
+    strengths:
+      - Strongest tie to Deep cult origin and Enceladus anomaly lore
+      - "Second Submerger" myth cleanly precedes The Voice
+      - Tightest runtime; clearest dramatic choice (no return)
+      - Dissolution ending visually iconic for trailer
+    weaknesses:
+      - Less room for Freetown bookend; audience may miss Branch B context
+      - Jark as character ends—no sequel protagonist without prequel
+      - Horror-sacrament tone may clash with Gardener hope in main bible
+    best_for:
+      - Abyssus / The Deep spinoff
+      - Horror-forward marketing
+      - Single unforgettable climax reel
+
+  - id: v3-bearer
+    file: v3-bearer.md
+    title: "Bearer"
+    runtime_min: 14
+    runtime_max: 18
+    scores:
+      visual_poetry: 8
+      sound_design: 7
+      emotional_arc: 9
+      canon_fit: 8
+      pacing_short: 6
+      character_clarity: 10
+      thematic_depth: 8
+      production_feasibility: 6
+      ending_power: 7
+      franchise_potential: 10
+    weighted_overall: 7.9
+    recommendation: series_pilot
+    strengths:
+      - Clearest Dark–Jark dialogue; accessible to newcomers
+      - Freetown return explains Cerebrium System legacy on Ceres
+      - Split-screen finale states thesis without ambiguity
+      - Highest franchise and episodic expansion surface
+    weaknesses:
+      - Longest; Act III risks sermonizing if not cast well
+      - "Miracle dry page" beat can feel on-the-nose
+      - Less pure contrast between noise and silence (more plot)
+      - Murmur alley scenes add budget (extras, VFX signage)
+    best_for:
+      - Limited series pilot
+      - Promethean / Freetown storyline lead-in
+      - Character-driven streaming pitch
+
+summary:
+  highest_overall: v2-submerge
+  best_poC_shot_for_shot: v1-canonical-descent
+  best_long_form: v3-bearer
+  suggested_hybrid: >
+    Use V1 Scene 1 (0:00-1:30) verbatim; V2 Act II accusation montage tempo;
+    V3 Ceres meeting as single 45s dialogue; end on V1 ambiguous wreck smile
+    OR V2 empty suit if festival prefers horror.
+  next_iterations:
+    - v4: 60-minute IMAX midsection only (installation art cut)
+    - v5: dual POV chapter (Dark's severance day / Jark's descent, intercut)

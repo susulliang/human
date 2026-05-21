@@ -88,6 +88,8 @@ The full chronological history lives in [`era/`](era/). Key figures are catalogu
 
 Named figures (YAML): [characters/](characters/)
 
+**Stories:** [*The Silent Vein* iterations](story/dark-and-jark/) (Dark & Jark)
+
 ---
 
 ## **APPENDICES**
@@ -95,6 +97,12 @@ Named figures (YAML): [characters/](characters/)
 - [Epilogue: The Questions That Remain](era/epilogue.md)
 - [Final Summary Table: The Complete Universe](era/summary-table.md)
 - [Thematic Summary](era/thematic-summary.md)
+
+---
+
+## License
+
+**Private — personal use only.** All rights reserved. You may not copy, distribute, adapt, or commercially use this work without [written consent](LICENSE). See [LICENSE](LICENSE) for full terms.
 
 ---
 
