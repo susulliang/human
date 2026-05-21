@@ -1,0 +1,19 @@
+[package]
+name = "jark-silent-vein"
+version = "0.1.0"
+description = "A simple exploration game set in Human-Ever-After."
+authors = ["susulliang"]
+edition = "2021"
+
+[lib]
+name = "jark_silent_vein_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

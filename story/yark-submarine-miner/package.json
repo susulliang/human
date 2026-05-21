@@ -1,0 +1,21 @@
+{
+  "name": "yark-submarine-miner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1440",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 1440",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.6.0",
+    "vite": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.6.0"
+  }
+}
