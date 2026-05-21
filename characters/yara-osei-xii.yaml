@@ -1,0 +1,34 @@
+id: yara-osei-xii
+project: human-ever-after
+name: Commander Yara Osei XII
+aliases:
+  - "Twelfth hereditary Osei Syndicate leader"
+type: human
+born: 3020
+died: null
+status: unknown
+birthplace: Enceladus (Saturn system)
+affiliations:
+  - Osei Syndicate
+  - Celestial Compact
+roles:
+  - Syndicate commander
+  - Taproot defender (final stand)
+skills:
+  - Antimatter scuttling legacy (inherited doctrine)
+  - High-stakes surrender diplomacy
+  - Cartel military command
+personality:
+  - Principled
+  - Tragic
+  - Unable to trigger mutual destruction
+  - Realist
+biography: >
+  Twelfth hereditary leader of the Osei line descended from Yara Osei. During the
+  Enceladus War surrenders Taproot rather than detonating charges—knowing Terran Hawks
+  lie about perpetual Cerebrium allocation—because extinction of all dependent life is
+  worse than defeat.
+era_active:
+  - "3000-3055: Fall"
+canon:
+  - era/06-the-fall.md

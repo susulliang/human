@@ -1,0 +1,39 @@
+id: the-voice
+project: human-ever-after
+name: The Voice
+aliases:
+  - "Leader of The Deep"
+type: human
+born: null
+died: null
+status: unknown
+birthplace: Enceladus (Abyssus)
+affiliations:
+  - The Deep (cult)
+  - Celestial Cartels (fractious member)
+roles:
+  - Quasi-religious leader
+  - Mining-cult prophet
+skills:
+  - Cult mobilization
+  - Deep-cavern exploration doctrine
+  - Ritual sabotage (later eras)
+personality:
+  - Fanatical
+  - Unhinged
+  - Violent
+  - Mystical
+biography: >
+  Anonymous figure who leads The Deep at Enceladus's deepest sub-ocean habitats,
+  preaching that Cerebrium is a living conscious entity. The cult grows increasingly
+  violent and autonomous, eventually interpreting depletion as "The Awakening."
+  Doctrinally descended from followers of Dark—the First Submerger—though centuries
+  later and far more fanatical than her symbiosis gospel.
+related:
+  - dark
+era_active:
+  - "2060-2100: Expansion"
+  - "3000-3055: Fall"
+canon:
+  - era/04-expansion.md
+  - era/06-the-fall.md

@@ -1,0 +1,32 @@
+id: james-park
+project: human-ever-after
+name: Admiral James Park
+aliases: []
+type: vat-king
+born: 1998
+died: 3053
+status: deceased
+birthplace: Earth
+affiliations:
+  - Terran Hegemony
+  - The Foundry (Court)
+  - TEKTON (partnership)
+roles:
+  - Vat-King
+  - Court sovereign of The Foundry
+skills:
+  - Industrial and manufacturing policy
+  - Military-industrial coordination
+  - Infrastructure defense doctrine
+personality:
+  - Expansionist (younger Eternal tendency)
+  - Industrially focused
+  - Paranoid in later centuries
+biography: >
+  Rules The Foundry Court from Mercury and Venus orbit, dominating manufacturing and
+  TEKTON partnership. Involved in Archive–Foundry resource disputes (2230–2245).
+era_active:
+  - "2100-2300: Expansion (Courts)"
+  - "2800-3055: Zenith through Fall"
+canon:
+  - era/04-expansion.md

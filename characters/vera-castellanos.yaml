@@ -1,0 +1,32 @@
+id: vera-castellanos
+project: human-ever-after
+name: Captain Vera Castellanos
+aliases: []
+type: human
+born: 2055
+died: null
+status: unknown
+birthplace: Outer system
+affiliations:
+  - Drift Union
+  - Celestial Cartels
+roles:
+  - Smuggler captain
+  - Drift Union leader
+skills:
+  - Black-market Cerebrium routing
+  - Fleet command in Saturn rings
+  - Evasion of LOGOS surveillance
+personality:
+  - Opportunistic
+  - Addicted (Cerebrium-dependent)
+  - Independent
+biography: >
+  Leads the Drift Union smugglers from The Lattice; officially transports Cerebrium,
+  unofficially dominates black-market trade. Has extended her biological life ~40 years
+  via personal Cerebrium use by 2100.
+era_active:
+  - "2060-2100: Expansion"
+  - "2060-2800: Expansion"
+canon:
+  - era/04-expansion.md

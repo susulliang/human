@@ -1,0 +1,32 @@
+id: kwame-osei
+project: human-ever-after
+name: Kwame Osei
+aliases: []
+type: human
+born: 2010
+died: null
+status: deceased_by_natural_lifespan_likely
+birthplace: Outer system (Celestial)
+affiliations:
+  - Osei Syndicate
+  - Celestial Cartels
+roles:
+  - Commodities trader
+  - Taproot extraction leader (early Syndicate era)
+skills:
+  - Cerebrium market negotiation
+  - Extraction logistics
+  - Ruthless deal-making
+personality:
+  - Ruthless
+  - Pragmatic
+  - Negotiator
+biography: >
+  Biological human (not a Vat-King) who led Osei Syndicate extraction at Taproot circa
+  2100, with roughly 90-year life expectancy while inner-system immortals depended on
+  his cartel's supply.
+era_active:
+  - "2060-2100: Expansion"
+canon:
+  - era/04-expansion.md
+notes: Likely descendant or namesake of Yara Osei's line; exact genealogy not specified in canon.

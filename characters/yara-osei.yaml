@@ -1,0 +1,39 @@
+id: yara-osei
+project: human-ever-after
+name: Commander Yara Osei
+aliases:
+  - "Founder of the Osei Syndicate"
+type: human
+born: 2005
+died: null
+status: deceased_or_succession_by_lineage
+birthplace: Earth (exiled to outer system)
+affiliations:
+  - Branch C (Celestials)
+  - Celestial Compact (founder)
+  - Osei Syndicate (founder)
+roles:
+  - Celestial miner leader
+  - Military commander
+  - Cartel founder
+skills:
+  - Antimatter scuttling and MAD diplomacy
+  - Enceladus engineering
+  - Coalition building among exiles
+personality:
+  - Charismatic
+  - Disciplined
+  - Militaristic
+  - Willing to threaten mutual destruction
+biography: >
+  Led Celestial miners during the Enceladus Standoff (2045–2046), rigging primary
+  caverns with antimatter scuttling charges and forcing the Treaty of Enceladus.
+  Restructured outer colonies into the Celestial Compact and founded the Osei Syndicate
+  at Taproot—the system's most valuable mine.
+era_active:
+  - "2045-2060: Awakening"
+  - "2060-2100: Expansion (founding generation)"
+canon:
+  - era/03-awakening.md
+  - era/04-expansion.md
+notes: Birth year approximate; active as Commander by 2045.

@@ -1,0 +1,31 @@
+id: yara-osei-xiii
+project: human-ever-after
+name: Warden-Commander Yara Osei XIII
+aliases:
+  - "First Warden of Enceladus"
+type: human
+born: 3065
+died: null
+status: alive
+birthplace: Enceladus / Saturn system
+affiliations:
+  - Wardens of Enceladus
+  - Osei bloodline
+roles:
+  - Warden-Commander
+  - Guardian of sealed Enceladus caverns
+skills:
+  - Oath-bound guardianship
+  - Post-Accord security doctrine
+personality:
+  - Dutiful
+  - Legacy-conscious
+  - Protective
+biography: >
+  First Warden-Commander after the Ceres Accord, swearing the oath that bans future
+  Cerebrium mining and guards the sealed caverns. Continues the Osei family line as
+  protectors rather than extractors.
+era_active:
+  - "3055-3100: Inheritors"
+canon:
+  - era/06-the-fall.md

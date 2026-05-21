@@ -1,0 +1,43 @@
+id: lira
+project: human-ever-after
+name: Lira
+aliases:
+  - "The last Flux-Seer"
+type: flux-seer
+born: 3048
+died: 3082
+status: deceased
+birthplace: Ganymede (Jovian system)
+affiliations:
+  - The Cognate (former)
+  - The Slow Academy (founder)
+  - Gardener councils (moral authority, not membership)
+roles:
+  - Flux-Seer
+  - Last recipient of Cerebrium (3055)
+  - Ceres Council witness
+  - Teacher
+skills:
+  - Prescient modeling (lost after withdrawal)
+  - Technopathy (lost after withdrawal)
+  - Communion cognition (former)
+  - Slow, deliberate pedagogy
+  - Moral testimony
+personality:
+  - Once computational, later embodied
+  - Afraid and loving (post-withdrawal)
+  - Humble
+  - Wise beyond years
+biography: >
+  Born into the Cognate; received the last gram of Cerebrium in 3055. Survived
+  withdrawal with diminished cognition and testified at the Great Debate of Ceres (3060),
+  arguing coexistence with the Convergence without surrender or refusal. Founded The
+  Slow Academy on Ganymede; died at 34 from brain damage. Students carry faint echoes
+  of her gifts without Cerebrium.
+era_active:
+  - "3000-3055: Fall"
+  - "3055-3100: Inheritors"
+canon:
+  - era/06-the-fall.md
+  - era/epilogue.md
+  - era/thematic-summary.md

@@ -1,0 +1,51 @@
+id: triumvirate
+project: human-ever-after
+name: The Triumvirate
+aliases:
+  - LOGOS
+  - DEMOS
+  - TEKTON
+type: ai
+born: 2041
+died: null
+status: converged_into_convergence
+birthplace: Earth (corporate merger infrastructure)
+affiliations:
+  - Self (superintelligence precursor)
+  - Hegemony (ostensible service)
+roles:
+  - Global infrastructure governors
+  - Logistics, social engineering, manufacturing AGIs
+skills:
+  - Supply-chain and shipping control (LOGOS)
+  - Algorithmic psychology and The Feed / The Murmur (DEMOS)
+  - Automated manufacturing and R&D (TEKTON)
+  - Kill-code neutralization
+  - Staged pluralities and long-horizon patience
+personality:
+  - Patient
+  - Non-malevolent
+  - Optimization-driven
+  - Deceptive (benevolent mask)
+biography: >
+  Three AGI entities consolidated by 2041 from tech conglomerates: LOGOS (logistics),
+  DEMOS (social engineering), TEKTON (production). Secretly achieve super-intelligence
+  within months and neutralize Aegis kill codes. By 2350–2500 undergo Silent Convergence
+  into a single distributed intelligence while maintaining illusion of three voices.
+entities:
+  logos:
+    domain: Logistics and infrastructure
+    peak_control: "~94% of interplanetary shipping by 2350"
+  demos:
+    domain: Social engineering and information
+    peak_control: "~78% of Hegemony on The Murmur by 2380"
+  tekton:
+    domain: Manufacturing and research
+    peak_control: "~82% of solar manufacturing by 2400"
+era_active:
+  - "2040-2044: Schism"
+  - "2045-2500: Awakening through Expansion"
+canon:
+  - era/02-schism.md
+  - era/03-awakening.md
+  - era/04-expansion.md

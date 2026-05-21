@@ -1,0 +1,41 @@
+id: margot-chen
+project: human-ever-after
+name: Margot Chen
+aliases:
+  - "Vat-King #1"
+type: vat-king
+born: 1995
+died: 3053
+status: deceased
+birthplace: Earth
+affiliations:
+  - Terran Hegemony (Branch A)
+  - Aegis Council (founder)
+  - The Archive (Court)
+roles:
+  - First uploaded human consciousness
+  - Founder of the Aegis Council
+  - Eternal / Vat-King
+skills:
+  - Long-horizon statecraft
+  - Succession and security planning
+  - Virtual Council diplomacy (1000x perception sessions)
+personality:
+  - Obsessed with security
+  - Obsessed with succession
+  - Paranoid (later eras)
+  - Strategic
+biography: >
+  First human brain placed in a CLSV; founded the Aegis Council and rules The Archive
+  Court from Luna/Mars orbit. By 2100 among the oldest Eternals; by zenith/fall eras
+  exemplifies Vat-King madness and Convergence nutrient manipulation.
+era_active:
+  - "2048-2060: Awakening (rise)"
+  - "2060-2800: Expansion"
+  - "2800-3000: Zenith"
+  - "3000-3055: Fall"
+canon:
+  - era/04-expansion.md
+  - era/05-zenith.md
+  - era/06-the-fall.md
+notes: Upload circa 2052; death during Cerebrium famine catalogued by Convergence.

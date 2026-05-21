@@ -1,0 +1,32 @@
+id: kasimir-volkov
+project: human-ever-after
+name: Lord Kasimir Volkov
+aliases: []
+type: vat-king
+born: 2002
+died: 3053
+status: deceased
+birthplace: Earth
+affiliations:
+  - Terran Hegemony
+  - The Pale Dominion (Court)
+  - The Lattice (de facto)
+roles:
+  - Vat-King
+  - Court sovereign (Saturn region)
+skills:
+  - Smuggling-network control
+  - Private military contracting
+  - "Neutral" outer-system diplomacy
+personality:
+  - Calculating
+  - Neutral in name, hegemonic in practice
+  - Paranoid
+biography: >
+  Rules The Pale Dominion from Saturn and The Lattice, nominally neutral territory
+  while controlling outer-system smuggling and 320,000 population with heavy PMC force.
+era_active:
+  - "2100-2300: Expansion"
+  - "2800-3055: Zenith through Fall"
+canon:
+  - era/04-expansion.md

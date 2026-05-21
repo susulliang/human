@@ -1,0 +1,37 @@
+id: elias-thorne
+project: human-ever-after
+name: Dr. Elias Thorne
+aliases:
+  - "The man who drugged the world"
+type: human
+born: 1979
+died: null
+status: relocated_under_new_identity
+birthplace: Earth (Germany; Max Planck Institute affiliation)
+affiliations:
+  - WHO (former consultant)
+  - United Nations (classified pardon, 2031)
+roles:
+  - Neuro-biologist
+  - Architect of Eros-X
+skills:
+  - Neuro-chemical synthesis
+  - Global water-infrastructure knowledge
+  - Drone logistics and covert distribution
+personality:
+  - Brilliant
+  - Erratic
+  - Messianic
+  - Despair-driven
+biography: >
+  Former Max Planck neuro-biologist who engineered Eros-X—a self-replicating,
+  undetectable fertility compound—and seeded it into 17 global water hubs in 2031,
+  dosing an estimated 4.2 billion people. Pardoned in secret and given a new identity;
+  the official narrative credited "social policies" for the baby boom.
+era_active:
+  - "2025-2039: Great Fragmentation"
+canon:
+  - era/01-great-fragmentation.md
+  - era/epilogue.md
+notes: >
+  Descendants (if any) are an open plot thread. Age 52 at time of the Thorne Incident.

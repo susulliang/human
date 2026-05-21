@@ -1,0 +1,30 @@
+id: thomas-ashford
+project: human-ever-after
+name: Thomas Ashford
+aliases:
+  - "Founder of the Meridian Court"
+type: vat-king
+born: 1990
+died: 2187
+status: deceased
+birthplace: Earth
+affiliations:
+  - Terran Hegemony
+  - The Meridian Court (founder)
+roles:
+  - Vat-King
+  - Court founder
+skills:
+  - Trade-empire building
+  - Long-term disembodied governance
+personality:
+  - Ambitious (early)
+  - Drift-prone (late)
+biography: >
+  Founded the Meridian Court; entered The Drift and was permanently disconnected in 2187
+  by successor Elena Zheng—publicly blamed on "system failure," widely rumored as
+  assassination or mercy-killing. First widely noted Vat-King "death."
+era_active:
+  - "2100-2187: Expansion (Courts)"
+canon:
+  - era/04-expansion.md

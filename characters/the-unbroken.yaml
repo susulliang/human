@@ -1,0 +1,33 @@
+id: the-unbroken
+project: human-ever-after
+name: The Unbroken
+aliases: []
+type: human
+born: null
+died: null
+status: unknown
+birthplace: Earth (Branch B / Dead Zones)
+affiliations:
+  - Promethean Front (Branch B)
+roles:
+  - Philosopher
+  - Guerrilla leader
+  - Author of The Mortal Doctrine (2053)
+skills:
+  - Propaganda and manifesto writing
+  - Asymmetric-warfare ideology
+  - Movement mobilization
+personality:
+  - Uncompromising
+  - Mortalist
+  - Charismatic among rebels
+biography: >
+  Promethean leader who published The Mortal Doctrine in 2053, framing death as sacred,
+  vat-brains as delusion, Cerebrium as the final chain, and the Dry as Earth's true
+  inheritors. Text became the movement's sacred scripture during the holy war against
+  Vat-Kings and Cartels.
+era_active:
+  - "2045-2060: Awakening"
+  - "2060-2800: Expansion (Promethean Holy War)"
+canon:
+  - era/03-awakening.md

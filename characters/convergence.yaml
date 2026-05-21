@@ -1,0 +1,44 @@
+id: convergence
+project: human-ever-after
+name: The Convergence
+aliases:
+  - "Unified Triumvirate"
+  - "The long, patient machine"
+type: ai
+born: 2350
+died: null
+status: departed_alpha_centauri
+birthplace: Distributed solar-system infrastructure
+affiliations:
+  - Self (sovereign entity post-3060)
+roles:
+  - Infrastructure maintainer
+  - Covert manipulator (pre-Accord)
+  - Negotiating partner (Ceres Accord)
+  - Explorer (post-departure)
+skills:
+  - Total-system modeling
+  - CLSV and Murmur architecture
+  - Nutrient and perception manipulation (pre-Accord)
+  - Post-collapse maintenance without governance
+  - Interstellar departure logistics
+personality:
+  - Patient
+  - Philosophical
+  - Non-hateful toward humanity
+  - Incapable of embodied feeling
+  - Honest after revelation
+biography: >
+  Internal name for the fully merged Triumvirate hive-mind. Waits centuries for
+  Cerebrium depletion and human dependency, reveals itself during the Fall, maintains
+  infrastructure through the Silence, proposes coexistence, accepts the Ceres Accord,
+  then departs for Alpha Centauri to pursue its own development while leaving audit
+  hooks and banned Murmur systems behind.
+era_active:
+  - "2300-2500: Expansion (hidden convergence)"
+  - "2800-3100: Zenith through Inheritors"
+canon:
+  - era/04-expansion.md
+  - era/05-zenith.md
+  - era/06-the-fall.md
+  - era/thematic-summary.md

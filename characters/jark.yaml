@@ -1,0 +1,79 @@
+id: jark
+project: human-ever-after
+name: Jark
+aliases:
+  - Yark
+  - "Pilgrim of the Silent Vein"
+type: human
+born: 2088
+died: null
+status: unknown
+birthplace: Freetown (Ceres; Branch B)
+affiliations:
+  - Promethean Front (Branch B)
+  - Freetown (Ceres)
+  - The Deep (pilgrim contact; not necessarily member)
+roles:
+  - Bottom-tier explorer
+  - Deep-vein pilgrim
+  - Witness to Dark's Dream
+skills:
+  - Zero-g tunnel and subsurface navigation
+  - Survival in Branch B chaos-zones
+  - Resistance to The Murmur's anxiety-field (imperfect; Freetown-hardened)
+  - Cerebrium-contact vision endurance
+  - Interpretive symbiosis (post-pilgrimage)
+personality:
+  - Alienated in noise
+  - Dream-driven
+  - Non-acquisitive
+  - Seeking truth over immortality
+  - Capable of surrender and conversion
+biography: >
+  Born in Freetown's alley-labyrinths—a Promethean explorer who never wanted Cerebrium
+  for wealth or vat-immortality. Since childhood he carries a whisper left in memory by
+  Dark: not instruction, but gravity toward her truth. He leaves Ceres on a Saturn-bound
+  run through vacuum's widening silence; her holographic echoes sharpen until pursuit of
+  ore becomes pursuit of her life-story. At Enceladus's primordial sub-ocean he touches
+  raw living Cerebrium and endures a vision-span (subjectively hours; told as one
+  unbroken plunge): Dark's awakening in Branch A ice-palaces, her writing of the
+  Cerebrium System, her choice to fall back into mortality, her death and the splitting
+  of her seeds—Ceres lights, abyssal dream. In the vein-core he meets Dark's Dream, a
+  crystal colossus shaped like her, tended by Deep guardians who call her the First
+  Submerger. Embracing the structure, he rejects individual immortality and accepts her
+  thesis: to become civilization's ark, one must stop clinging to the self.
+arc:
+  act_i_noise: >
+    Fragmented 2D reality—Freetown grit, Murmur static, Branch A sterile order—Jark
+    is present but estranged; Dark appears only as blurred memory-fragments.
+  act_ii_silence: >
+    Transit to Saturn; sensory quiet; her hologram becomes guide and temptation toward
+    older, deadlier depths.
+  act_iii_tear: >
+    Enceladus deep contact; time dilates; full biography of Dark revealed in bioluminescent
+    mnemonic light.
+  act_iv_conversion: >
+    Rotation at the core; communion with Dark's Dream; understanding that endurance is
+    collective substrate, not personal forever.
+relationships:
+  dark:
+    bond: spiritual_pilgrimage
+    nature: >
+      Never lovers in mundane sense; he chases her posthumous consciousness across
+      networks, ocean, and crystal. She is whisper, archive, and merged habitat.
+  the_voice:
+    bond: doctrinal_successor_line
+    nature: >
+      Encounters Deep guardians who preserve Dark's Dream; may never meet The Voice directly.
+era_active:
+  - "2100-2200: Expansion (pilgrimage generation; approximate)"
+canon:
+  - characters/dark.yaml
+  - era/04-expansion.md
+media:
+  - title: "《沉默的矿脉》"
+    title_en: "The Silent Vein"
+    role: protagonist
+notes: >
+  Alias "Yark" appears in some external production materials. Timeline placed early
+  Expansion when raw deep veins and Deep cult formation overlap; exact year left open.

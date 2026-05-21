@@ -1,0 +1,73 @@
+id: dark
+project: human-ever-after
+name: Dark
+aliases:
+  - "The Late Awakened"
+  - "The First Submerger"
+  - "Silent Saint of the Vein"
+type: human
+born: 2022
+died: 2118
+status: deceased_merged_with_cerebrium
+birthplace: Earth (Branch A; inner system)
+affiliations:
+  - Branch A (former; Anointed-tier researcher)
+  - Branch B (chosen mortal body, post-severance)
+  - Freetown / Ceres (posthumous spiritual origin)
+  - The Deep / Abyssus (posthumous cult origin)
+roles:
+  - Cerebrium phenomenologist
+  - Author of the Cerebrium System
+  - Consciousness-severance apostate
+  - Posthumous symbiotic-network architect (legacy)
+skills:
+  - Long-form solitary research under immortality infrastructure
+  - Living-system modeling of Cerebrium as conscious sea
+  - Network severance from Eternal/CLSV grids
+  - Philosophical writing (symbiosis over extraction)
+  - Data-seed encoding for posthumous distribution
+personality:
+  - Overlooked until awakened
+  - Patient
+  - Sacrificial
+  - Mystical-rational
+  - Anti-individual-immortality
+biography: >
+  Once a neglected "late awakened" within Branch A's eternity machine—an Anointed-tier
+  mind who understood the regime only after years inside it. In isolation she concluded
+  Cerebrium is not ore but a living ocean of awareness. She authored the Cerebrium System,
+  a revelation-text arguing symbiosis rather than mining, then cut her consciousness free
+  of the immortality network and accepted a mortal Branch B body to age and die naturally.
+  After death her legacy bifurcated: one data-seed reached Ceres (Freetown), inspiring
+  anarchic cooperative micro-networks and the Silent Temple ethos; another sank into
+  Enceladus's primordial vein, becoming the crystal megastructure known as Dark's Dream—
+  guarded for generations by sub-ocean devotees who would become The Deep. She is revered
+  as the first to submerge willingly, proving that true persistence is civilizational,
+  not personal.
+legacy:
+  cerebrium_system: >
+    Revelation-text; read by Promethean exiles on Ceres and by extremists who sought
+    union with the mineral rather than trade in it.
+  darks_dream: >
+    Enceladus deep-core consciousness relic; crystalline form resembling her silhouette;
+    source of reverse-echo whispers heard near raw Cerebrium and in Freetown's temple silence.
+  freetown_influence: >
+    Symbiotic small-scale networks on Ceres modeled on her original design; "coexist, do not strip."
+  the_deep_origin: >
+    Wanderers who followed her "merge with the vein" instruction founded guardian cults at
+    Abyssus; later codified as worship of a sleeping god—the doctrinal line The Voice inherits.
+era_active:
+  - "2045-2060: Awakening (research era)"
+  - "2060-2120: Expansion (life, death, legacy seeding)"
+  - "2060-3100: Expansion through Inheritors (mythic persistence)"
+canon:
+  - era/03-awakening.md
+  - era/04-expansion.md
+  - era/epilogue.md
+media:
+  - title: "《沉默的矿脉》"
+    title_en: "The Silent Vein"
+    role: primary_subject
+notes: >
+  Predates The Voice as cult figurehead; Deep tradition treats her as First Submerger.
+  Enceladus anomaly signatures in later eras may relate to Dark's Dream. Dates approximate.

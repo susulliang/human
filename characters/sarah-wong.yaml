@@ -1,0 +1,32 @@
+id: sarah-wong
+project: human-ever-after
+name: Director Sarah Wong
+aliases: []
+type: vat-king
+born: 2000
+died: 3053
+status: deceased
+birthplace: Earth
+affiliations:
+  - Terran Hegemony
+  - The Meridian Court
+roles:
+  - Vat-King
+  - Court sovereign (trade and commerce)
+skills:
+  - Interplanetary commerce
+  - Naval and sensor-network strategy
+  - Waystation and shipping-lane control
+personality:
+  - Mercantile
+  - Strategic
+  - Court-intrigue oriented
+biography: >
+  Controls The Meridian Court across Jupiter and outer shipping lanes—520,000 subjects,
+  high naval strength. Succeeds Thomas Ashford's trade empire after his Drift and
+  disconnection in 2187.
+era_active:
+  - "2100-2300: Expansion"
+  - "2800-3055: later eras"
+canon:
+  - era/04-expansion.md
