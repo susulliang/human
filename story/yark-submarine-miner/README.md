@@ -1,5 +1,7 @@
 # Yark: Cerebrium Run
 
+Version `0.2.0`.
+
 A Tauri action RPG where Yark pilots a submarine through Enceladus's living caverns to mine Cerebrium.
 
 ## Play

@@ -8,20 +8,21 @@ app.innerHTML = `
   <main class="shell">
     <section class="hud">
       <div>
-        <p class="kicker">Human-Ever-After</p>
+        <p class="kicker">Enceladus Sub-Ocean / Contract 0.2</p>
         <h1>Yark: Cerebrium Run</h1>
       </div>
       <div class="readout">
-        <span>Move <b>WASD</b></span>
-        <span>Mine <b>Space</b></span>
-        <span>Dock <b>R</b></span>
+        <span>WASD</span>
+        <span>Space</span>
+        <span>R Dock</span>
       </div>
     </section>
     <section class="game">
       <div class="canvas-wrap"></div>
       <aside class="panel">
-        <h2>Abyssus Contract</h2>
-        <p>Pilot Yark's pressure sub through Enceladus's living caverns. Mine Cerebrium, avoid Deep sentries and thermal vents, then return to the dock to bank cargo and upgrade.</p>
+        <p class="kicker">Abyssus Mining Interface</p>
+        <h2>Submarine Status</h2>
+        <p>Pilot Yark through a black-water claim. Mine only what the hull can carry. Bank cargo before the oxygen math turns personal.</p>
         <div class="bars"></div>
         <div class="modules"></div>
         <div class="message"></div>
@@ -56,7 +57,7 @@ const player = {
 };
 
 let camera = { x: 0, y: 0 };
-let message = "Dive, mine, return. The vein pays well when it does not eat the crew.";
+let message = "Dive. Mine. Return. Abyssus records only profitable survivors.";
 let gameOver = false;
 let last = performance.now();
 
@@ -142,7 +143,7 @@ function mine(dt) {
     if (node.ore <= 0 || distance(player, node) > node.r + 54) continue;
     const taken = Math.min(node.ore, power * dt, maxCargo() - player.cargo);
     if (taken <= 0) {
-      message = "Cargo bay full. Return to Abyssus to refine.";
+      message = "Cargo bay full. Return to dock for refinement.";
       return;
     }
     node.ore -= taken;
@@ -151,7 +152,7 @@ function mine(dt) {
     for (let i = 0; i < 2; i += 1) {
       particles.push({ x: node.x, y: node.y, vx: rand(-30, 30), vy: rand(-30, 30), life: 0.7 });
     }
-    message = "Cerebrium fragments sing through the drill head.";
+    message = "Cerebrium resonance captured. Drill heat nominal.";
     break;
   }
 }
@@ -168,11 +169,11 @@ function bankCargo() {
     player.cargo = 0;
     player.oxygen = 100;
     player.hull = Math.min(100, player.hull + 18 + player.plating * 4);
-    message = `Cargo refined for ${value} credits. Hull patched, oxygen cycled.`;
+    message = `Cargo refined: ${value} credits. Hull patched. Oxygen cycled.`;
   } else {
     player.oxygen = 100;
     player.hull = Math.min(100, player.hull + 8);
-    message = "Abyssus cycles your tanks and checks the hull seams.";
+    message = "Dock cycle complete. Tanks refreshed. Hull scanned.";
   }
 }
 
@@ -220,7 +221,7 @@ function update(dt) {
     const active = Math.sin(vent.phase * 1.8) > 0.35;
     if (active && distance(player, vent) < vent.r && player.invuln <= 0) {
       player.hull -= Math.max(1, 9 - player.plating) * dt;
-      message = "Thermal vent boiling against hull plating.";
+    message = "Thermal plume contact. Hull integrity falling.";
     }
   }
 
@@ -233,7 +234,7 @@ function update(dt) {
       player.invuln = 1;
       player.vx += (player.x - sentry.x) * 1.2;
       player.vy += (player.y - sentry.y) * 1.2;
-      message = "A Deep sentry rammed the sub. The cult does not like independent miners.";
+      message = "Deep sentry impact. Independent extraction contested.";
     }
   }
 
@@ -249,12 +250,12 @@ function update(dt) {
     player.xp -= need;
     player.level += 1;
     player.credits += 40;
-    message = `Yark reached level ${player.level}. Abyssus grants a hazard bonus.`;
+    message = `Operator level ${player.level}. Hazard bonus credited.`;
   }
 
   if (player.hull <= 0) {
     gameOver = true;
-    message = "Run lost. The submarine goes quiet in the living dark.";
+    message = "Run lost. Signal collapsed below recoverable depth.";
   }
 
   camera.x = Math.max(0, Math.min(world.width - canvas.clientWidth, player.x - canvas.clientWidth / 2));
@@ -262,19 +263,19 @@ function update(dt) {
 }
 
 function drawGrid() {
-  ctx.fillStyle = "#07151a";
+  ctx.fillStyle = "#050708";
   ctx.fillRect(0, 0, canvas.clientWidth, canvas.clientHeight);
   ctx.save();
   ctx.translate(-camera.x, -camera.y);
 
   const gradient = ctx.createRadialGradient(dock.x, dock.y, 40, world.width * 0.62, world.height * 0.68, world.width);
-  gradient.addColorStop(0, "#153642");
-  gradient.addColorStop(0.5, "#09212a");
-  gradient.addColorStop(1, "#210f1f");
+  gradient.addColorStop(0, "#11191d");
+  gradient.addColorStop(0.5, "#070d10");
+  gradient.addColorStop(1, "#151516");
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, world.width, world.height);
 
-  ctx.strokeStyle = "rgba(146, 225, 202, 0.07)";
+  ctx.strokeStyle = "rgba(125, 145, 150, 0.08)";
   ctx.lineWidth = 1;
   for (let x = 0; x < world.width; x += 80) {
     ctx.beginPath();
@@ -295,22 +296,22 @@ function draw() {
 
   ctx.beginPath();
   ctx.arc(dock.x, dock.y, dock.r, 0, Math.PI * 2);
-  ctx.fillStyle = "rgba(232, 196, 106, 0.18)";
+  ctx.fillStyle = "rgba(149, 163, 166, 0.13)";
   ctx.fill();
-  ctx.strokeStyle = "#e8c46a";
+  ctx.strokeStyle = "#9aa6a8";
   ctx.lineWidth = 3;
   ctx.stroke();
-  ctx.fillStyle = "#f6efd8";
-  ctx.font = "700 18px system-ui";
+  ctx.fillStyle = "#c9d1d2";
+  ctx.font = "600 14px system-ui";
   ctx.fillText("ABYSSUS DOCK", dock.x - 70, dock.y + 6);
 
   for (const vent of vents) {
     const active = Math.sin(vent.phase * 1.8) > 0.35;
     ctx.beginPath();
     ctx.arc(vent.x, vent.y, vent.r, 0, Math.PI * 2);
-    ctx.fillStyle = active ? "rgba(218, 96, 87, 0.24)" : "rgba(218, 96, 87, 0.08)";
+    ctx.fillStyle = active ? "rgba(128, 67, 72, 0.24)" : "rgba(128, 67, 72, 0.08)";
     ctx.fill();
-    ctx.strokeStyle = active ? "rgba(255, 167, 127, 0.54)" : "rgba(255, 167, 127, 0.22)";
+    ctx.strokeStyle = active ? "rgba(177, 104, 108, 0.48)" : "rgba(177, 104, 108, 0.18)";
     ctx.stroke();
   }
 
@@ -320,9 +321,9 @@ function draw() {
     const glow = 0.28 + Math.sin(node.pulse) * 0.12;
     ctx.beginPath();
     ctx.arc(node.x, node.y, node.r + Math.sin(node.pulse) * 3, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(118, 227, 191, ${glow})`;
+    ctx.fillStyle = `rgba(142, 186, 176, ${glow})`;
     ctx.fill();
-    ctx.strokeStyle = "#9df2d3";
+    ctx.strokeStyle = "#a7c4bd";
     ctx.stroke();
   }
 
@@ -330,8 +331,8 @@ function draw() {
     ctx.save();
     ctx.translate(sentry.x, sentry.y);
     ctx.rotate(sentry.t);
-    ctx.fillStyle = "#b65f83";
-    ctx.strokeStyle = "#ffd5e4";
+    ctx.fillStyle = "#5f6368";
+    ctx.strokeStyle = "#b8bfc1";
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.moveTo(22, 0);
@@ -346,7 +347,7 @@ function draw() {
 
   for (const particle of particles) {
     ctx.globalAlpha = Math.max(0, particle.life);
-    ctx.fillStyle = "#caf9df";
+    ctx.fillStyle = "#c6d5d1";
     ctx.fillRect(particle.x, particle.y, 3, 3);
     ctx.globalAlpha = 1;
   }
@@ -354,8 +355,8 @@ function draw() {
   ctx.save();
   ctx.translate(player.x, player.y);
   ctx.rotate(player.angle);
-  ctx.fillStyle = "#f4d46f";
-  ctx.strokeStyle = "#fff7cf";
+  ctx.fillStyle = "#aab4b7";
+  ctx.strokeStyle = "#eef3f2";
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.moveTo(28, 0);
@@ -365,7 +366,7 @@ function draw() {
   ctx.quadraticCurveTo(6, 18, 28, 0);
   ctx.fill();
   ctx.stroke();
-  ctx.fillStyle = "#17323a";
+  ctx.fillStyle = "#050708";
   ctx.beginPath();
   ctx.arc(8, 0, 7, 0, Math.PI * 2);
   ctx.fill();
@@ -424,7 +425,7 @@ function reset() {
     scanner: 1,
     invuln: 0
   });
-  message = "Dive, mine, return. The vein pays well when it does not eat the crew.";
+    message = "Dive. Mine. Return. Abyssus records only profitable survivors.";
   gameOver = false;
   seedWorld();
 }
